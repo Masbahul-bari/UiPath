@@ -1,0 +1,166 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="New" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="632,1420" sap2010:WorkflowViewState.IdRef="New_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="642,1355.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: JD Sports Global | Shop Online Now" sap:VirtualizedContainerService.HintSize="580,1244.6666666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="23f8dedf-a2eb-4499-88b7-54873de9ad45" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="546,1026" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Search fild" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="484,220" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="23f8dedf-a2eb-4499-88b7-54873de9ad45" Text="Nike T-shirt[k(Enter)]" Timeout="5" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/" CvTextArea="959, 365, 236, 18" CvTextArgument="Search... Nike Air Huarache" CvType="Text" DesignTimeRectangle="945, 345, 406, 60" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT srchInput'" FullSelectorArgument="&lt;webctrl id='srchInput' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='srchInput' tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="a33d4eb6-27f5-43e6-b2e0-443cf598a3b0" InformativeScreenshot="6839e20fb30b4c9808f173d47ea6e00b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='JD Sports Global | Shop Online Now' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArea="50, 339, 410, 69" CvTextArgument="ID UNDISPUTED KING OF TRAINERS" CvType="Text" DesignTimeRectangle="56, 345, 408, 60" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl class='logo-large' parentid='headBot' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl class='logo-large' parentid='headBot' tag='IMG' type='' aaname='JD Sports' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="484,650" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b2c6587a-72f1-430a-baa1-cc25961d364d" Timeout="5" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,431.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Title' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Title Url' ReferenceName='Column1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;true&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Price' ReferenceName='Column2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext' name2='Column1' attr2='href'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='span' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" Timeout="5" Version="V3">
+                      <uix:NExtractData.NextLink>
+                        <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/search/Nike+T-shirt/" CvElementArea="668, 522, 48, 47" CvTextArea="686, 540, 9, 12" CvTextArgument="&gt;" CvType="Button" DesignTimeRectangle="731, 847, 54, 53" DesignTimeScaleFactor="1.5" FriendlyName="'A /search/Nike+T-shirt/…'" FullSelectorArgument="&lt;webctrl aaname='Next Page' id='/search/Nike+T-shirt/?from=72' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Next Page' id='/search/Nike+T-shirt/?from=72' tag='A' type='' class='btn btn-default pageNav' /&gt;" Guid="560a92de-f294-451e-a2ee-a25ca46dcb31" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvElementArea="667, 843, 60, 59" CvType="Button" DesignTimeRectangle="668, 844, 59, 57" ElementType="Button" FriendlyName="'chrome.exe 2'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NExtractData.NextLink>
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.global.jdsports.com/search/Nike+T-shirt/" DesignTimeRectangle="394, 743, 1428, 12561" DesignTimeScaleFactor="1.2000000476837158" ElementType="List" FriendlyName="'UL productListMain'" FullSelectorArgument="&lt;webctrl id='productListMain' tag='UL' /&gt;" Guid="5696a4d9-c4df-45d8-a075-c27ba0d9c613" InformativeScreenshot="95680c6aa4158d720033304bd50ded90.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="388,116" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="Nike T-shirt" WorkbookPath="[ProjectPath+&quot;\Output\Product.xlsx&quot;]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="c519579352432b1e5370924cf7269a29.jpg" Selector="&lt;html app='chrome.exe' title='Nike T-shirt - JD Sports Global' /&gt;" Title="Nike T-shirt - JD Sports Global" Url="https://www.global.jdsports.com/search/Nike+T-shirt/" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1056" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="da89eda9883781d59007a2478257ae79.jpg" Selector="&lt;html app='chrome.exe' title='JD Sports Global | Shop Online Now' /&gt;" Title="JD Sports Global | Shop Online Now" Url="https://www.global.jdsports.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
