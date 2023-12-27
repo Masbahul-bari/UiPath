@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hPDOnxTGKF9YDdauA9NeXUxm8CDd6xRIIAD9PAPM2PFOnbOqu6pG6MJh0WxikgiNPeBnY8PMm2Y5+Y1oN5ZSpw==",
+  "dgSpecHash": "FomptACBcaJlOZ9Ae/D0uJj6Wc1jFsf2vlYYNcgQaoLXCew3vn5LBcWoXMT94Y0UIwwyunAcLlXi56YRVqcarg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mesba_RPA\\Documents\\git\\UiPath\\While_Activity\\.local\\",
+  "projectFilePath": "C:\\Users\\Mesba_RPA\\Documents\\UiPath\\If_activities\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\azure.core\\1.18.0\\azure.core.1.18.0.nupkg.sha512",
@@ -16,7 +16,7 @@
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\google.apis.core\\1.55.0\\google.apis.core.1.55.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\google.apis.gmail.v1\\1.55.0.2510\\google.apis.gmail.v1.1.55.0.2510.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\google.apis.peopleservice.v1\\1.55.0.2567\\google.apis.peopleservice.v1.1.55.0.2567.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\htmlagilitypack\\1.11.38\\htmlagilitypack.1.11.38.nupkg.sha512",
+    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\htmlagilitypack\\1.11.46\\htmlagilitypack.1.11.46.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\markdig.signed\\0.31.0\\markdig.signed.0.31.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.applicationinsights\\2.21.0\\microsoft.applicationinsights.2.21.0.nupkg.sha512",
@@ -75,6 +75,7 @@
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.18\\microsoft.rest.clientruntime.azure.3.3.18.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\microsoft.visualstudio.ole.interop.16.7.30328.74.nupkg.sha512",
+    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.web.webview2\\1.0.1823.32\\microsoft.web.webview2.1.0.1823.32.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\microsoft.win32.registry.accesscontrol\\6.0.0\\microsoft.win32.registry.accesscontrol.6.0.0.nupkg.sha512",
@@ -266,11 +267,13 @@
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.codedworkflows\\23.10.2\\uipath.codedworkflows.23.10.2.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.connectionclient\\1.4.6\\uipath.connectionclient.1.4.6.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.excel.activities\\2.23.0-preview\\uipath.excel.activities.2.23.0-preview.nupkg.sha512",
+    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.form.activities\\23.10.1\\uipath.form.activities.23.10.1.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.mail.activities\\1.21.1\\uipath.mail.activities.1.21.1.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.ocr.activities\\3.17.1\\uipath.ocr.activities.3.17.1.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.ocr.contracts\\2.16.0\\uipath.ocr.contracts.2.16.0.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.platform\\23.10.0\\uipath.platform.23.10.0.nupkg.sha512",
+    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.studio.forms.runtime\\23.10.1\\uipath.studio.forms.runtime.23.10.1.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.system.activities\\23.12.0-preview\\uipath.system.activities.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.system.activities.runtime\\23.12.0-preview\\uipath.system.activities.runtime.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.system.activities.runtime.windows\\23.12.0-preview\\uipath.system.activities.runtime.windows.23.12.0-preview.nupkg.sha512",
@@ -278,11 +281,7 @@
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.testing.activities\\23.12.0-preview\\uipath.testing.activities.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.uiautomation.activities\\23.10.8\\uipath.uiautomation.activities.23.10.8.nupkg.sha512",
     "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.10.8\\uipath.uiautomation.activities.runtime.23.10.8.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.vision\\3.11.1\\uipath.vision.3.11.1.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.word.activities\\1.19.0-preview\\uipath.word.activities.1.19.0-preview.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\xceed.document.net\\2.0.21359.11160\\xceed.document.net.2.0.21359.11160.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\xceed.pdf\\2.0.21359.11160\\xceed.pdf.2.0.21359.11160.nupkg.sha512",
-    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\xceed.words.net\\2.0.21359.11160\\xceed.words.net.2.0.21359.11160.nupkg.sha512"
+    "C:\\Users\\Mesba_RPA\\.nuget\\packages\\uipath.vision\\3.11.1\\uipath.vision.3.11.1.nupkg.sha512"
   ],
   "logs": []
 }
