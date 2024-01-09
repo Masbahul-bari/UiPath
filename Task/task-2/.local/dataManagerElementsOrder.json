@@ -18,6 +18,27 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "main1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtData&Sequence_1",
+        "dtOutput&Sequence_1",
+        "itemMatch&Sequence_1",
+        "matchTotal&Sequence_1",
+        "matchInvoiceDate&Sequence_1",
+        "matchInvoiceNo&Sequence_1",
+        "matchVendorAddress&Sequence_1",
+        "matchVendorName&Sequence_1",
+        "matchBillTo&Sequence_1",
+        "matchCompany&Sequence_1",
+        "matchItem&Sequence_1",
+        "strPDF&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
