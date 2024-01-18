@@ -1,0 +1,20 @@
+Compare excel sheet and web data table in UiPath
+
+(DateTime.Now - stTime).TotalMinutes < 5
+
+DT1.AsEnumerable.Except(DT2.AsEnumerable,System.Data.DataRowComparer.Default).CopyToDataTable
+
+ExtractDataTable.AsEnumerable.Except(newExtractDataTable.AsEnumerable,System.Data.DataRowComparer.Default).CopyToDataTable
+
+23.12.0-beta.15287+Branch.release-v23.12.0.Sha.6f78cf34182e239b45fdde518f0d7807b8290d82
+
+
+Source: Write Range Workbook
+
+Message: Object reference not set to an instance of an object.
+
+Exception Type: System.NullReferenceException
+
+System.NullReferenceException: Object reference not set to an instance of an object.   at UiPath.Excel.Activities.WorkbookActivity`1.EndExecute(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.System.Activities.IAsyncCodeActivity.FinishExecution(AsyncCodeActivityContext context, IAsyncResult result)
+   at System.Activities.AsyncCodeActivity.CompleteAsyncCodeActivityData.CompleteAsyncCodeActivityWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
