@@ -12,6 +12,7 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "getMainText&Sequence_1",
         "status&Sequence_1",
         "Pan_number&Sequence_1",
         "status_var&Sequence_1",
@@ -21,6 +22,25 @@
         "a&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "secondWorkFlow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "fileName&Sequence_1",
+        "textOutput&Sequence_1",
+        "Account_Number&Sequence_1",
+        "Bank&Sequence_1",
+        "Branch&Sequence_1",
+        "Emi&Sequence_1",
+        "Ammount&Sequence_1",
+        "Loan_Taken_On&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "inputFieldDataTable"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }
