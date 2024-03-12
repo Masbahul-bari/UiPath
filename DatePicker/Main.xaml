@@ -1,0 +1,211 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="850.4,1262.4" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="540.8,1197.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="inputDate" />
+      <Variable x:TypeArguments="x:String" Name="day" />
+      <Variable x:TypeArguments="x:String" Name="month" />
+      <Variable x:TypeArguments="x:String" Name="year" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="478.4,281.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[&quot;Entr date in '''01 March 2024&quot;&quot; format &quot;]" Title="Enter Date">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[inputDate]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,220" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+      <ui:MultipleAssign.AssignOperations>
+        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[day]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[Split(inputDate, " ")(0).ToString]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[month]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[Split(inputDate, " ")(1).ToString]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+            <ui:AssignOperation.To>
+              <OutArgument x:TypeArguments="x:String">[year]</OutArgument>
+            </ui:AssignOperation.To>
+            <ui:AssignOperation.Value>
+              <InArgument x:TypeArguments="x:String">[Split(inputDate, " ")(2).ToString]</InArgument>
+            </ui:AssignOperation.Value>
+          </ui:AssignOperation>
+        </scg:List>
+      </ui:MultipleAssign.AssignOperations>
+    </ui:MultipleAssign>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: ConfirmTkt.com: Fastest Train Ticket Booking with easy IRCTC Login" sap:VirtualizedContainerService.HintSize="478.4,607.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="29fb8f41-70ce-4d64-b49e-d88e4b81a4d7" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,367.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'DIV'" sap:VirtualizedContainerService.HintSize="353.6,147.2" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6242b8f9-160e-49ba-afa8-f37e7482824b" InformativeScreenshot="05a48fd0fe26fb4154101c2d6d50ec23" Selector="&lt;webctrl id='dateOfJourney' tag='INPUT' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="353.6,132" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:Click.CursorPosition>
+              <ui:Click.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5ae4c652-1a5b-4c75-8ab4-f3cac618b61c" InformativeScreenshot="060333c96bb5a2227b9f2976004ca457" Selector="[string.Format(&quot;&lt;html app='chrome.exe' title='Confirm Ticket - Train Ticket booking Online | Train seat availability' /&gt;&lt;webctrl tag='DIV' innertext='{0} {1}*' idx='4' /&gt;&lt;webctrl aaname='{2}' tag='P' /&gt;&quot;, month, year, day)]">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:Click.Target>
+            </ui:Click>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1060" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="d8a952574a27426fe942db803b2543d4.jpg" Selector="&lt;html app='chrome.exe' title='ConfirmTkt.com: Fastest Train Ticket Booking with easy IRCTC Login' /&gt;" Title="ConfirmTkt.com: Fastest Train Ticket Booking with easy IRCTC Login" Url="https://www.confirmtkt.com/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
